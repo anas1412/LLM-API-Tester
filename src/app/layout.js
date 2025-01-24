@@ -1,9 +1,7 @@
-// app/layout.js
-
 import "./globals.css";
 
 export const metadata = {
-  title: "Birthday Gift Suggestor",
+  title: "LLM API Tester",
   description: "Find the perfect birthday gift based on MBTI!",
 };
 
