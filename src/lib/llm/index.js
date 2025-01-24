@@ -17,6 +17,14 @@ const providers = {
       return generateOpenAIResponse(apiKey, prompt, systemMessage);
     },
   }),
+  anthropic: (apiKey) => ({
+    generate: async (prompt, systemMessage) => {
+      const { generateAnthropicResponse } = await import(
+        "./providers/anthropic"
+      );
+      return generateAnthropicResponse(apiKey, prompt, systemMessage);
+    },
+  }),
 };
 
 export function getLLMProvider(providerName, apiKey) {
