@@ -32,7 +32,7 @@ To **test real-world performance** of different LLM APIs:
 ## 🚀 60-Second Setup
 
 1. Clone + `npm install`
-2. Add `.env.local` with API keys
+2. Rename `.env.example` to `.env.local` and add your API keys
 3. `npm run dev`
 
 ---
