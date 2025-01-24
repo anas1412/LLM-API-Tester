@@ -24,6 +24,7 @@ const LLM_PROVIDERS = [
   { id: "gemini", name: "Google Gemini" },
   { id: "openai", name: "OpenAI" },
   { id: "deepseek", name: "DeepSeek" },
+  { id: "anthropic", name: "Anthropic Claude 3.5" },
 ];
 
 export default function Home() {
