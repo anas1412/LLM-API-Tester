@@ -25,7 +25,7 @@ To **test real-world performance** of different LLM APIs:
 
 - Next.js API Routes
 - Tailwind UI
-- Gemini/DeepSeek/OpenAI
+- Gemini/DeepSeek/OpenAI/Anthropic
 
 ---
 
