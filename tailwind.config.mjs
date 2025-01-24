@@ -5,39 +5,45 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       colors: {
-        // Professional color palette
-        background: "#F9FAFB", // Light gray background
-        foreground: "#111827", // Dark gray text
+        background: "#fff5f7",
+        foreground: "#881337",
         primary: {
-          DEFAULT: "#3B82F6", // Blue
-          hover: "#2563EB", // Darker blue
+          DEFAULT: "#f43f5e",
+          hover: "#e11d48",
         },
         secondary: {
-          DEFAULT: "#6B7280", // Gray
-          hover: "#4B5563", // Darker gray
+          DEFAULT: "#fb7185",
+          hover: "#fda4af",
         },
         accent: {
-          DEFAULT: "#10B981", // Green
-          hover: "#059669", // Darker green
-        },
-        error: {
-          DEFAULT: "#EF4444", // Red
-          hover: "#DC2626", // Darker red
+          DEFAULT: "#f472b6",
+          hover: "#ec4899",
         },
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"], // Professional sans-serif font
+        cursive: ["'Comic Neue'", "cursive"],
+        sans: ["'Poppins'", "sans-serif"],
       },
       boxShadow: {
-        card: "0 4px 6px rgba(0, 0, 0, 0.1)",
-        button: "0 2px 4px rgba(0, 0, 0, 0.1)",
+        gentle: "0 8px 32px rgba(251, 113, 133, 0.1)",
+        button: "0 4px 16px rgba(244, 63, 94, 0.2)",
       },
-      borderRadius: {
-        DEFAULT: "8px",
-        lg: "12px",
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: 0, transform: "translateY(10px)" },
+          "100%": { opacity: 1, transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        "fade-in": "fade-in 0.3s ease-out",
+      },
+      backgroundImage: {
+        "select-chevron":
+          "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f43f5e'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e\")",
       },
     },
   },
