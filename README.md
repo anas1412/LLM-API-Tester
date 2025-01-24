@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LLM API Tester 🧪
 
-## Getting Started
+_Validate & Compare Gemini/DeepSeek/OpenAI Responses_
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Why I Built This
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To **test real-world performance** of different LLM APIs:  
+✅ Compare response quality between providers  
+✅ Implement strict input validation (MBTI/dates)  
+✅ Create modular system for API swapping
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Core Value
 
-## Learn More
+1. **Validation First** - Rigorous checks before API calls
+2. **Provider Comparison** - Same prompt → Different LLMs
+3. **Extensible** - Add new APIs in <5 minutes
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js API Routes
+- Tailwind UI
+- Gemini/DeepSeek/OpenAI
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 60-Second Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone + `npm install`
+2. Add `.env.local` with API keys
+3. `npm run dev`
+
+---
+
+_"Built to understand LLM API behaviors in validation-heavy scenarios"_
